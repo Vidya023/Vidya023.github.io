@@ -1033,6 +1033,41 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Coverletter
+--------------------------------------------------------------*/
+
+.letter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.letter {
+  background-color: #000000; /* Black background */
+  padding: 20px;
+  border: 1px solid #ffffff; /* White border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  text-align: left;
+  color: #ffffff; /* White font color */
+}
+
+.letter-heading {
+  font-size: 24px;
+  margin-bottom: 30px; /* Space between the heading and the content */
+  text-align: center;
+  color: #ffffff; /* White font color for heading */
+}
+
+.letter-content p {
+  font-size: 12px;
+  margin-bottom: 10px; /* Space between paragraphs */
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
